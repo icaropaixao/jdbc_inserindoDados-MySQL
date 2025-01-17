@@ -48,7 +48,7 @@ public class Program {
                 // percorrendo toda a tabela
                 while (rs.next()) {
                     int id = rs.getInt(1); // coluna 1 dentro da tabela (ID)
-                    System.out.println("ID do dado que foi inserido: " + id);
+                    System.out.println("ID do dado que foi inseridojdbc_inserindoDados: " + id);
                 }
             }
             else {
